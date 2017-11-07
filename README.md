@@ -25,7 +25,7 @@ yum -y update; curl -O https://centminmod.com/installer.sh && chmod 0700 install
 2. Install vCentminmod Antiddos Addon: 
 
 ```
-curl -O https://github.com/duy13/vCentminmod-DDoS/raw/master/vCentminmod-DDoS.sh && chmod 700 vCentminmod-DDoS.sh && bash vCentminmod-DDoS.sh
+curl -L -O https://github.com/duy13/vCentminmod-DDoS/raw/master/vCentminmod-DDoS.sh && chmod 700 vCentminmod-DDoS.sh && bash vCentminmod-DDoS.sh
 
 ```
 

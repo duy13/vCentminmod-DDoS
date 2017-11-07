@@ -6,6 +6,6 @@
 7ddbace29d0590c6c33fd62b81487bcf  md5sum.txt
 04b810da43fc50404f630a8b707f95db  off.conf.txt
 d0688358f774e207002cea12c65aa167  on.conf.txt
-f4def6b49095301612b9d428701fbf2b  README.md
-4adacd92e073a490080f3610739f43b5  vCentminmod-DDoS.sh
+7284c60abc5d188a417b4686f3de92f5  README.md
+634f9db2420a1175cc5ec7b97c80ea36  vCentminmod-DDoS.sh
 50f8880098a324634ac6a837bce6ae3d  vddosw3data.js.txt

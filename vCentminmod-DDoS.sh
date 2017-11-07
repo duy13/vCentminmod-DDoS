@@ -36,7 +36,6 @@ A small shell script auto Deploy and Use "Testcookie Module" for your Centmin Mo
 								Thanks you for using!
 
 
-
 '
 echo -n 'Press Enter to continue the installation: '
 read Enter
