@@ -21,6 +21,11 @@ Install:
 yum -y update; curl -O https://centminmod.com/installer.sh && chmod 0700 installer.sh && bash installer.sh
  
 ```
+```
+cd /usr/local/src/centminmod 
+./centmin.sh
+
+```
 
 2. Install vCentminmod Antiddos Addon: 
 
@@ -34,7 +39,7 @@ curl -L -O https://github.com/duy13/vCentminmod-DDoS/raw/master/vCentminmod-DDoS
 ```
 cd /usr/local/src/centminmod 
 ./centmin.sh
-
+ 
 ```
 ```
 "Option 4" to update config: "4).  Nginx Upgrade / Downgrade"

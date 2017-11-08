@@ -48,6 +48,8 @@ echo '
 
 
 mkdir -p /usr/local/nginx/conf/vCentminmod-DDoS/html
+echo 'testcookie on;' > /usr/local/nginx/conf/vCentminmod-DDoS/on.conf
+echo 'testcookie off;' > /usr/local/nginx/conf/vCentminmod-DDoS/off.conf
 
 curl -L https://raw.githubusercontent.com/duy13/vCentminmod-DDoS/master/aes.min.js.txt -o /usr/local/nginx/conf/vCentminmod-DDoS/html/aes.min.js --silent
 goc=`curl -L https://raw.githubusercontent.com/duy13/vCentminmod-DDoS/master/md5sum.txt --silent | grep "aes.min.js.txt" |awk 'NR==1 {print $1}'`
