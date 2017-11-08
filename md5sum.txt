@@ -8,5 +8,5 @@
 04b810da43fc50404f630a8b707f95db  off.conf.txt
 d0688358f774e207002cea12c65aa167  on.conf.txt
 2909f132841cf55a1bf85e15a334da82  README.md
-04325a793cb3d38f9643ae2da1eb2376  vCentminmod-DDoS.sh
+d94bf748b1095530d2434c41152df385  vCentminmod-DDoS.sh
 50f8880098a324634ac6a837bce6ae3d  vddosw3data.js.txt

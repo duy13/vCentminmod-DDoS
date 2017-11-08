@@ -27,7 +27,7 @@ if [ ! -f /usr/local/nginx/conf/nginx.conf ]; then
 fi
 
 ran_it=`cat /dev/urandom | tr -cd 'A-Z0-9' | head -c 5`
-ran_nhieu=`cat /dev/urandom | tr -cd 'a-z0-9' | head -c 32`
+ran_nhieu=$(echo -n "$(cat /dev/urandom | tr -cd 'a-z0-9' | head -c 2014)" | md5sum | cut -d " " -f 1)
 
 clear
 ############################################################
