@@ -133,9 +133,9 @@ unzip master.zip
 rm -rf master.zip
 
 
-cp /usr/local/src/centminmod/inc/nginx_upgrade.inc /usr/local/src/centminmod/inc/nginx_upgrade.inc.bak.$ran_it
+cp /usr/local/src/centminmod/inc/nginx_configure.inc /usr/local/src/centminmod/inc/nginx_configure.inc.bak.$ran_it
 s='--with-http_gzip_static_module' ; r='--with-http_gzip_static_module --add-module=../testcookie-nginx-module-master'
-sed -i "s#$s#$r#g" /usr/local/src/centminmod/inc/nginx_upgrade.inc
+sed -i "s#$s#$r#g" /usr/local/src/centminmod/inc/nginx_configure.inc
 
 
 echo '
