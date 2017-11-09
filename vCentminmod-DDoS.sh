@@ -1,6 +1,6 @@
 #!/bin/bash
-# vCentminmod Antiddos Addon (vddos.voduy.com)
-# Thanks you for using!
+# vCentminmod Antiddos Addon - auto Deploy and Use "Testcookie Module"
+# Thanks you for using! (vddos.voduy.com)
 
 if [ ! -f /etc/redhat-release ]; then
 	echo 'ERROR! Recommend use CentOS Linux release 7 x86_64!
@@ -136,6 +136,10 @@ rm -rf master.zip
 
 
 cp /usr/local/src/centminmod/inc/nginx_configure.inc /usr/local/src/centminmod/inc/nginx_configure.inc.bak.$ran_it
+s='--with-http_gzip_static_module --add-module=../testcookie-nginx-module-master' ; r='--with-http_gzip_static_module'
+sed -i "s#$s#$r#g" /usr/local/src/centminmod/inc/nginx_configure.inc
+s='--with-http_gzip_static_module --add-module=../testcookie-nginx-module-master' ; r='--with-http_gzip_static_module'
+sed -i "s#$s#$r#g" /usr/local/src/centminmod/inc/nginx_configure.inc
 s='--with-http_gzip_static_module' ; r='--with-http_gzip_static_module --add-module=../testcookie-nginx-module-master'
 sed -i "s#$s#$r#g" /usr/local/src/centminmod/inc/nginx_configure.inc
 
