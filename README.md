@@ -123,7 +123,7 @@ Include on.conf or off.conf to turn on or off the Security Mode.
 3. Restart Nginx:
 
 ```
-service nginx restart
+service nginx stop; sleep 3; service nginx start
 ```
 
 Website: 
