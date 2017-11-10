@@ -136,13 +136,14 @@ rm -rf master.zip
 
 
 cp /usr/local/src/centminmod/inc/nginx_configure.inc /usr/local/src/centminmod/inc/nginx_configure.inc.bak.$ran_it
-s='--with-http_gzip_static_module --add-module=../testcookie-nginx-module-master' ; r='--with-http_gzip_static_module'
+s='--with-http_gzip_static_module --add-module=../testcookie-nginx-module-master ' ; r='--with-http_gzip_static_module '
 sed -i "s#$s#$r#g" /usr/local/src/centminmod/inc/nginx_configure.inc
-s='--with-http_gzip_static_module --add-module=../testcookie-nginx-module-master' ; r='--with-http_gzip_static_module'
+s='--with-http_gzip_static_module --add-module=../testcookie-nginx-module-master ' ; r='--with-http_gzip_static_module '
 sed -i "s#$s#$r#g" /usr/local/src/centminmod/inc/nginx_configure.inc
-s='--with-http_gzip_static_module' ; r='--with-http_gzip_static_module --add-module=../testcookie-nginx-module-master'
+s='--with-http_gzip_static_module ' ; r='--with-http_gzip_static_module --add-module=../testcookie-nginx-module-master '
 sed -i "s#$s#$r#g" /usr/local/src/centminmod/inc/nginx_configure.inc
-
+touch /etc/centminmod/custom_config.inc
+echo "NGINX_TESTCOOKIE='y'" >> /etc/centminmod/custom_config.inc
 
 echo '
 
