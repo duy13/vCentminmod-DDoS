@@ -1,10 +1,10 @@
 7ebaa2486a3efb0705ef9713d4a8ce7b  html/5s.html.txt
 035d6d24b8f724d46800cf4d6cbe83b9  html/captcha.html.txt
 0857002a2f553e3502c9fd88760cadd3  html/cookies.html.txt
-d47460cce38339174aabcdb007c31767  5s.conf.txt
+258a35c94c48c0ed7f33fb562e94f20e  5s.conf.txt
 8f45388d05600ea154384bf6a308a15b  aes.min.js.txt
-a31c6cab3f2742696b7952ab1ae04684  high.conf.txt
-3f4cd4689fbf05dfd9803e7464622690  md5sum.txt
+c72c7556fd4130e904a3d9e576b75c99  high.conf.txt
+ad3e948e699218cbe932a6fd763250c6  md5sum.txt
 04b810da43fc50404f630a8b707f95db  off.conf.txt
 d0688358f774e207002cea12c65aa167  on.conf.txt
 f0cc2cca6c497ab32a844934f7a7134d  README.md
