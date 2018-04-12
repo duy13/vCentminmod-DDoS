@@ -1,7 +1,7 @@
 testcookie off;
 testcookie_name vCentminmod;
 testcookie_secret random;
-testcookie_session $remote_addr$http_user_agent;
+testcookie_session $remote_addr;
 testcookie_arg d;
 testcookie_max_attempts 4;
 testcookie_refresh_status 200;
